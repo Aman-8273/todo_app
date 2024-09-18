@@ -1,0 +1,58 @@
+.header {
+  margin-top: 2rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 3rem 1rem 3rem;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.p {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.NavLink {
+  text-decoration: none;
+}
+
+.home {
+  color: #d8f5a2;
+}
+
+.home:hover,
+.home:active {
+  color: #e9ecef;
+}
+
+li {
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.btnLogin {
+  border: none;
+  color: #495057;
+  background: none;
+  font-size: 2.5rem;
+  margin-right: 4rem;
+  font-weight: 700;
+}
+
+.btnLogin:hover,
+.btnLogin:active {
+  color: #ced4da;
+}

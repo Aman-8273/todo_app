@@ -1,0 +1,66 @@
+li {
+  font-size: 1.6rem;
+}
+
+.task li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60rem;
+  padding: 10px 10px;
+  gap: 5rem;
+  padding-left: 1rem;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.task li span {
+  font-size: 1.4rem;
+}
+
+.task li:hover {
+  border: 3px solid #868e96;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btnRemove {
+  width: 30px;
+  height: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+  stroke: #868e96;
+}
+
+.btnRemove:hover {
+  stroke: #212529;
+}
+
+.editContainer {
+  display: flex;
+  gap: 1px;
+}
+
+.editBtn {
+  border-radius: 5px;
+  background-color: #dee2e6;
+  cursor: pointer;
+  border: 2px solid #868e96;
+}
+
+.editBtn:hover {
+  background-color: #e9ecef;
+}
+
+.listInput {
+  /* background: transparent; */
+  width: 70rem;
+  margin: 0;
+
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+/* .listInput:focus {
+  outline: 2x solid black;
+} */

@@ -1,0 +1,80 @@
+.form {
+  max-width: 47rem;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 0.5rem;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form label {
+  font-size: 1.6rem;
+  padding: 2rem 2rem 2rem 6rem;
+  font-weight: bold;
+}
+
+.form input,
+.form textarea {
+  font-size: 1.4rem;
+  display: block;
+  margin-top: 1rem;
+  width: 75%;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  /* padding: 2rem; */
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 2rem 4rem 0;
+}
+
+.login {
+  padding-left: 2rem;
+  text-align: center;
+}
+
+.actions button {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  background-color: #f1f3f5;
+  color: black;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.actions a {
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1.4rem;
+  color: #495057;
+}
+
+.actions button:hover {
+  color: #868e96;
+}
+
+.actions a:hover {
+  color: #868e96;
+}
+
+.logSign {
+  color: black;
+}
+
+.form h1 {
+  font-size: 2.1rem;
+  margin: 4rem 0 4rem 0;
+}
+
+.form p {
+  font-size: 1.4rem;
+}

@@ -1,0 +1,65 @@
+.homepage {
+  color: black;
+  font-size: 4.2rem;
+  margin-bottom: 2rem;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.IMGcontainer {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.heading {
+  text-align: center;
+  height: 4rem;
+  width: 30rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+  margin-top: 2rem;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.todoIMG {
+  border-radius: 0.5rem;
+  margin: 10px auto;
+  height: 70vh;
+  width: 70rem;
+  padding: 4px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.getStartbtn {
+  font-size: 1.6rem;
+  padding: 8px;
+  width: 40rem;
+  font-weight: 600;
+  color: black;
+  background-color: #f4f449;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 4rem 0 0 6rem;
+}
+
+.btnGet {
+  display: flex;
+  justify-content: center;
+}
+
+.homeContainer {
+  display: flex;
+  gap: 25rem;
+  padding: 3rem;
+  justify-content: space-between;
+}
+
+.main {
+  margin-top: 8%;
+  /* background-color: red; */
+}
